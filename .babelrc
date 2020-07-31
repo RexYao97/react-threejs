@@ -1,0 +1,19 @@
+{
+  "presets": [
+    // "@babel/react",
+    // ["", { "modules": false }],
+
+    // "@babel/flow",
+    // "minify"
+    // "@babel/preset-env",
+
+    "@babel/env",
+    "@babel/react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-regenerator"
+    // 开启react代码的模块热替换（HMR）
+  ]
+}
