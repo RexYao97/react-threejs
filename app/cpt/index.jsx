@@ -20,6 +20,9 @@ class Cpt extends React.Component {
         <div className="link-btn">
           <Link to="/shaderTop2">shaderTop2</Link>
         </div>
+        <div className="link-btn">
+          <Link to="/explore">explore</Link>
+        </div>
       </div>
     );
   }

@@ -6,6 +6,8 @@ import Example1 from '../modules/example1/index.jsx';
 import Textures from '../modules/textform/index.jsx';
 import shaderTop from '../modules/shaderTop/index.jsx';
 import shaderTop2 from '../modules/shaderTop2/index.jsx';
+import explore from '../modules/shaderTop3-explore/index.jsx';
+
 export default [
   {
     name: 'example1',
@@ -31,6 +33,11 @@ export default [
     name: 'shaderTop2',
     path: '/shaderTop2',
     component: shaderTop2,
+  },
+  {
+    name: 'shaderTop-explore',
+    path: '/explore',
+    component: explore,
   },
   {
     name: '/',

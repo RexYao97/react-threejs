@@ -12,6 +12,7 @@ module.exports = {
       title: 'myReact',
       filename: 'index.html',
       template: path.resolve(__dirname, '/reactWebpack/index.html'),
+      inject: false,
     }),
   ],
   module: {

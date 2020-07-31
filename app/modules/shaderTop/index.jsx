@@ -1,7 +1,8 @@
 import React from 'react';
 import vertex from './vertex.glsl';
 import fragment from './fragment.glsl';
-export default class ShaderTop extends React.Component {
+
+export default class ShaderTop1 extends React.Component {
   componentDidMount() {
     this.init();
   }

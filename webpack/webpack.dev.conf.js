@@ -3,13 +3,14 @@ const base = require('./webpack.base.conf');
 const path = require('path');
 const webpack = require('webpack');
 // 自定义全局变量
-console.log(process.env.NODE_ENV, process.env.DEV);
+console.log('环境', process.env.NODE_ENV, process.env.DEV);
 module.exports = merge(base, {
   //模块参数
   mode: 'development',
   devServer: {
-    port: 9005,
+    port: 8085,
     contentBase: path.join(__dirname, '/build'),
+    // host: '0.0.0.0',
     historyApiFallback: true,
     hot: true,
     open: true,
